@@ -1,0 +1,28 @@
+body{
+	font-family: arial;
+	background-color: #EFEFEF;
+}
+
+h1, h3{
+	text-align: center;
+	border-radius: 10px;
+	padding: 30px;
+}
+h1{
+	background-color: blue;
+}
+h1:hover{
+	background-color: darkblue;
+	color: white;
+	box-shadow: 5px 5px 4px skyblue;
+	transition: all .3s;
+}
+h3{
+	background-color: violet;
+}
+h3:hover{
+	background-color: darkviolet;
+	color: white;
+	box-shadow: 5px 5px 4px blue;
+	transition: all .3s;
+}
