@@ -1,0 +1,362 @@
+/* Fuente de Google */
+@import url(https://fonts.googleapis.com/css?family=Oswald:400,300,700);
+
+body {
+  margin: 0
+}
+
+.container_16 {
+	max-width: 860px;
+	width: 80%;
+	margin: 0 auto;
+}
+
+.grid_8,
+.grid_16 {
+	display: inline;
+	float: left;
+	position: relative;
+	margin-left: 1%;
+	margin-right: 1%;
+}
+
+.container_16 .grid_8 {
+	width: 45.0%;
+  margin-right: 30px;
+}
+
+.container_16 .grid_16 {
+	width: 98.0%;
+}
+
+/**********
+/* Header
+**********/
+
+header {
+  background: #33a4c9;
+  border-bottom: 1px solid #848484;
+  padding: 19px 0;
+  overflow: hidden;
+}
+
+header figure {
+  float: left;
+  /*height: 175px;
+  width: 175px;*/
+}
+
+header figure img {
+  border-radius: 90px;
+  border: solid #fff;
+  height: 175px;
+  width: 175px;
+  position: relative;
+}
+
+header hgroup {
+  float: right;
+  text-align: center;
+}
+
+header hgroup h1 {
+  color: #fff;
+  font: 400 40px oswald, sans-serif;
+  text-shadow: 1px 1px 0 rgba(0,0,0,.3);
+}
+
+header hgroup h2 {
+  color: #fff;
+  font-style: italic;
+  font: 400 20px oswald,sans-serif;
+  text-shadow: 1px 1px 0 rgba(0,0,0,.3);
+}
+
+#cv {
+  width: 45px;
+  height: 55px;
+  /* IE 9 */
+  -ms-transform: rotate(15deg); 
+  /* Chrome, Safari, Opera */
+  -webkit-transform: rotate(15deg); 
+  transform: rotate(15deg);
+  box-shadow: 1px 1px 1px #888888;
+}
+
+/***************
+/* Main section
+***************/
+
+p {
+  font: 400 14px oswald, sans-serif;
+}
+
+section[role=main] {
+  padding: 21px 0;
+  overflow: hidden;
+}
+
+section[role=main] > div {
+  margin-top: 63px;
+}
+
+section[role=main] h3 {
+  border-bottom: 1px solid #BDBDBD;
+  padding: 0 0 20px 60px;
+  margin-top: 0px;
+  position: relative;
+  font: 400 20px oswald, sans-serif;
+}
+
+.icon {
+  display: block;
+  height: 50px;
+  left: 0;
+  position: absolute;
+  top: -10px;
+  width: 50px;
+}
+
+.experiences ul, .training ul {
+  /*margin-left: 60px;*/
+  padding: 0px;
+}
+
+section[role=main] h4 {
+  margin-bottom: 0px;
+}
+
+section[role=main] h4 strong {
+  color: #147393;
+  font-weight: normal;
+  font: 400 17px oswald, sans-serif;
+}
+
+.experiences li, .training li {
+  margin-bottom: 35px;
+  list-style: none;
+}
+
+/**************
+/* Knowledge 
+***************/
+
+.knowledge .values {
+  padding: 0px;
+}
+
+.knowledge .values li {
+  margin-bottom: 21px;
+  position: relative;
+  list-style: none;
+  font: 400 14px oswald, sans-serif;
+}
+
+.knowledge .values li:after {
+		background: #e1e1e1;
+		bottom: -4px;
+		content: ' ';
+		display: block;
+		height: 5px;
+		position: absolute;
+		width: 100%;
+	}
+
+.knowledge .values li span {
+  background: #33a4c9;
+  bottom: -4px;
+  content: ' ';
+  display: block;
+  height: 5px;
+  left: 0;
+  position: absolute;
+  width: inherit;
+  z-index: 1;
+}
+
+.grid_8 ul {
+  padding: 15px;
+}
+
+.grid_8 ul li {
+  font: 400 15px oswald, sans-serif;
+  margin-bottom: 3px;
+  list-style: none;
+}
+
+.grid_8 .information li:before, .grid_8 .contact li:before {
+  /* For a round bullet */
+  content: '\2022';
+  /* For a square bullet */
+  /*content:'\25A0';*/
+  font: 400 15px oswald, sans-serif;
+  margin-bottom: 3px;
+  display: block;
+  position: relative;
+  max-width: 0;
+  max-height: 0;
+  left: -15px;
+  top: 0;
+  color: #33a4c9;
+  font-size: 20px;
+}
+
+.grid_16
+
+.site {
+  background-position: 0 -2px;
+  color: #848484;
+  font: 400 15px oswald, sans-serif;
+}
+	
+.date {
+  background-position: 0 -22px;
+  color: #999;
+  font: 400 15px oswald, sans-serif;
+}
+
+.phone {
+  background-position: 0 -40px;
+}
+
+.mail {
+  background-position: 0 -58px;
+}
+
+.blog {
+  background-position: 0 -80px;
+}
+
+.socialmedia {
+
+}
+
+.social {
+  width: 40px;
+  height: 40px;
+  margin: 10px 38px 25px 38px;
+}
+
+.formation1 {
+  float: left;
+}
+
+.formation2 {
+  float: right;
+}
+
+/**************
+/* Animaciones
+***************/
+
+.fadeInDown {
+  /* Chrome, Safari, Opera */
+  -webkit-animation: fadeInDown 4s; 
+  animation: fadeInDown 4s;
+}
+
+.fadeInUp {
+  /* Chrome, Safari, Opera */  
+  -webkit-animation: fadeInUp 4s; 
+  animation: fadeInUp 4s;
+}
+
+.fadeInUp2 {
+  /* Chrome, Safari, Opera */  
+  -webkit-animation: fadeInUp2 3.7s; 
+  animation: fadeInUp2 3.7s;
+}
+
+.fadeInLeft {
+  /* Chrome, Safari, Opera */  
+  -webkit-animation: fadeInLeft 4s; 
+  animation: fadeInLeft 4s;
+}
+
+.fadeInRight {
+  /* Chrome, Safari, Opera */  
+  -webkit-animation: fadeInRight 4s; 
+  animation: fadeInRight 4s;
+}
+
+.appear {
+  /* Chrome, Safari, Opera */
+  -webkit-animation: appear 6s; 
+  animation: appear 6s;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes fadeInDown {
+    0% {
+    opacity: 0;
+    transform: translate3d(0, -100%, 0);
+  }
+
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes fadeInUp {
+    0% {
+    opacity: 0;
+    transform: translate3d(0, 100%, 0);
+  }
+
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes fadeInUp2 {
+    0% {
+    opacity: 0;
+    transform: translate3d(0, 100%, 0);
+  }
+
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes fadeInLeft {
+    0% {
+    opacity: 0;
+    transform: translate3d(-100%, 0, 0);
+  }
+
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes fadeInRight {
+    0% {
+    opacity: 0;
+    transform: translate3d(100%, 0, 0);
+  }
+
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes appear {
+    0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
