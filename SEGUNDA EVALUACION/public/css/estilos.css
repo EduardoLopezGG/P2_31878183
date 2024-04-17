@@ -5,6 +5,19 @@ body {
   margin: 0
 }
 
+nav {
+  background-color: red;
+}
+
+a {
+  display: inline-block;
+}
+
+li{
+  padding: 20px;
+  text-decoration: none;
+}
+
 .container_16 {
 	max-width: 860px;
 	width: 80%;
