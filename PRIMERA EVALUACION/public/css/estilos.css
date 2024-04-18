@@ -1,6 +1,7 @@
 body{
 	font-family: arial;
 	background-color: #EFEFEF;
+	margin: 0;
 }
 
 h1, h3{
@@ -17,6 +18,32 @@ h1:hover{
 	box-shadow: 5px 5px 4px skyblue;
 	transition: all .3s;
 }
+
+nav {
+	background-color: rgb(75, 118, 175);
+}
+  
+ul {
+	list-style: none;
+	text-align: center;
+}
+  
+a {
+	display: inline-block;
+	color: rgb(255, 255, 255);
+	text-decoration: none;
+}
+  
+a:hover{
+	background-color: rgb(95, 44, 175);
+	transition: all 1.25s;
+}
+  
+a li{
+	padding: 20px;
+	align-items: center;
+}
+  
 h3{
 	background-color: violet;
 }
