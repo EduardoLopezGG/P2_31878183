@@ -2,20 +2,33 @@
 @import url(https://fonts.googleapis.com/css?family=Oswald:400,300,700);
 
 body {
-  margin: 0
+  margin: 0;
+  background-color: #e1e1e1;
 }
 
 nav {
-  background-color: red;
+  background-color: rgb(75, 118, 175);
+}
+
+ul {
+  list-style: none;
+  text-align: center;
 }
 
 a {
   display: inline-block;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
 }
 
-li{
+a:hover{
+  background-color: rgb(95, 44, 175);
+  transition: all 1.25s;
+}
+
+a li{
   padding: 20px;
-  text-decoration: none;
+  align-items: center;
 }
 
 .container_16 {
@@ -238,10 +251,6 @@ section[role=main] h4 strong {
 
 .blog {
   background-position: 0 -80px;
-}
-
-.socialmedia {
-
 }
 
 .social {
