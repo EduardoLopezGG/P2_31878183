@@ -7,13 +7,28 @@
 	<link rel="stylesheet" type="text/css" href="estilos.css">
 </head>
 <body>
-	<form>
-		<label>Nombre</label>
-		<input type="text" name="" placeholder="ingresa tu nombre">
-		<label>Correo Electronico</label>
-		<input type="email" name="" placeholder="ingresa tu email">
-		<label>Comentario</label>
-		<textarea placeholder="ingresa un comentario"></textarea>
+
+	<form class="ContactosController" method="add">
+		<h2>Formulario de contacto</h2>
+		<div class="grupo-de-input">
+			<label for="name">Nombre</label>
+			<input type="text" name="name" id="name" placeholder="ingresa tu nombre" required>
+
+			<label for="email">Correo Electronico</label>
+			<input type="email" name="email" id="email" placeholder="ingresa tu email" required>
+
+			<label for="message">Comentario</label>
+			<textarea placeholder="ingresa un comentario" required id="message" name="message" cols="30" rows="5"></textarea>
+
+			<input type="submit" value="enviar" class="btn">
+		</div>
+		
 	</form>
+
+	<script type="text/javascript" src="app3.js">
+		document.getElementById('btn').addEventListener('click', async () {
+			alert('inscrito')
+		})
+	</script>
 </body>
 </html>
