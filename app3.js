@@ -25,7 +25,7 @@ db.run(`
 
 app.use(express.urlencoded({ extended: true }));
 
-app.post('/guardar_contacto', (req, res) => {
+app.post('/', (req, res) => {
   const { nombre, email, comentario } = req.body;
   const ip_usuario = req.ip; // Dirección IP del usuario
   const fecha_hora = new Date();
